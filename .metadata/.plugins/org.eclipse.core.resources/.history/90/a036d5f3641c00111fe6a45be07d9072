@@ -1,0 +1,15 @@
+package basics;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class lists {
+	public static void main(String[] args) {
+		List<String> book = new ArrayList<>();
+		book.add("book1");
+		book.add("book2");
+		System.out.println(book.size());
+		
+	}
+
+}

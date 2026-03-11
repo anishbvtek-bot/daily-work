@@ -1,0 +1,10 @@
+package basics;
+
+public class Main {
+	public static void main(String[] args) {
+		Library library = new Library();
+		library.addbook("rich dad poor dad");
+		library.borrowBook("rich dad poor dad");
+	}
+
+}

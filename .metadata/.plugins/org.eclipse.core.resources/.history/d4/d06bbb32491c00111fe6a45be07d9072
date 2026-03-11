@@ -1,0 +1,15 @@
+package basics;
+
+public class Demo1 {
+	public static void main(String[]args ) {
+	int age = 10;
+	System.out.println(age);
+	System.out.println("hello world");
+	boolean result = oddoreven(age);
+	System.out.println(result);
+	}
+	static boolean oddoreven(int number) {
+		return number % 2 == 0;
+	}
+
+}
