@@ -1,0 +1,9 @@
+package basics;
+
+public class person {
+	String name;
+	int age;
+	address address;
+	phone phone;
+
+}

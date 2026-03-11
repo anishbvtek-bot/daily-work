@@ -1,0 +1,24 @@
+package basics;
+import java.util.ArrayList;
+import java.util.List;
+public class petclinic {
+	public static void main(String[] args) {
+		methodOverriding();
+	}
+	private static void methodOverriding() {
+		pet pet = new dog("husky");
+		animal animal = (animal)pet;
+		animal.sound();
+		dog dog = new dog("bulldog");
+		dog.setName("bruno");
+		pet dog1 = new dog("bully");
+		cat cat = new cat();
+		dog.bark();
+		List<pet> pets = new ArrayList<pet>();
+		pets.add(dog);
+		pets.add(dog1);
+		pets.add(cat);
+		pets.forEach((pet)->pet.play());
+	}
+
+}

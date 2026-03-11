@@ -1,0 +1,24 @@
+package basics;
+
+public class dog extends animal implements pet {
+	private String breed;
+
+	public String getBreed() {
+		return breed;
+	}
+	public dog(String breed) {
+		//super();
+		this.breed = breed;
+	}
+	@Override
+	public void play() {
+		System.out.println("play with dog");
+		
+		// TODO Auto-generated method stub
+		
+	}
+	public void bark() {
+		System.out.println("dog is barking");
+	}
+
+}

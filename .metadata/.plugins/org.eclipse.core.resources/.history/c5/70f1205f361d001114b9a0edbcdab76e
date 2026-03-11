@@ -1,0 +1,21 @@
+package basics;
+
+
+class parent {
+	void show() {
+		System.out.println("parent");
+	}
+}
+class child extends parent{
+	void show() {
+		System.out.println("child");
+	}
+}
+public class test extends parent{
+	public static void main(String[]args) {
+		parent p = new child();
+		p.show();
+	}
+	
+	
+}

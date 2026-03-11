@@ -1,3 +1,2 @@
 INDEX VERSION 1.134+C:\Users\Administrator\Downloads\spring-tools\sts-5.0.1.RELEASE\work-space\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
-556223278.index
